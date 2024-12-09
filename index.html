@@ -2,20 +2,74 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Historial Spotify</title>
+  <style>
+    /* Ensure the body and html are 100% height */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden; /* Avoid scrolling */
+    }
+
+    /* Make each Tableau viz div fill the screen height */
+    .tableauPlaceholder {
+      position: relative;
+      width: 100%;
+      height: 100%; /* Full screen height */
+    }
+
+    .tableauPlaceholder object {
+      width: 100%;
+      height: 100%; /* Ensure the Tableau iframe also fills */
+    }
+  </style>
 </head>
 <body>
   
-  <div class='tableauPlaceholder' id='viz1733771251728' style='position: relative'><noscript><a href='#'><img alt='¿Cuántos días me pasé escuchando Spotify desde el 2015? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;01&#47;01_Spotify&#47;TotalDias&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='01_Spotify&#47;TotalDias' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;01&#47;01_Spotify&#47;TotalDias&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1733771251728');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  <!-- Tableau Visualization 1 -->
+  <div class='tableauPlaceholder' id='viz1733771251728'>
+    <noscript>
+      <a href='#'>
+        <img alt='¿Cuántos días me pasé escuchando Spotify desde el 2015? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;01&#47;01_Spotify&#47;TotalDias&#47;1_rss.png' style='border: none' />
+      </a>
+    </noscript>
+    <object class='tableauViz'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='name' value='01_Spotify&#47;TotalDias' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;01&#47;01_Spotify&#47;TotalDias&#47;1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='es-ES' />
+      <param name='filter' value='publish=yes' />
+    </object>
+  </div>
   
-  <div class='tableauPlaceholder' id='viz1733771580367' style='position: relative'><noscript><a href='#'><img alt='¿Cómo evolucionó el tiempo de escucha por año? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;02&#47;02_Spotify&#47;Totalhorasporao&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='02_Spotify&#47;Totalhorasporao' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;02&#47;02_Spotify&#47;Totalhorasporao&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1733771580367');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-  
-  <div class='tableauPlaceholder' id='viz1733771670973' style='position: relative'><noscript><a href='#'><img alt='¿Cuáles fueron los 10 artistas más escuchados? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;03&#47;03_Spotify&#47;TopArtistasHIstorico&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='03_Spotify&#47;TopArtistasHIstorico' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;03&#47;03_Spotify&#47;TopArtistasHIstorico&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1733771670973');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-    
-  <div class='tableauPlaceholder' id='viz1733772762259' style='position: relative'><noscript><a href='#'><img alt='¿Cuáles son los 10 artistas más escuchados por año? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;04&#47;04_Spotify&#47;TOP_anio&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='04_Spotify&#47;TOP_anio' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;04&#47;04_Spotify&#47;TOP_anio&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1733772762259');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>  
+  <!-- Include Tableau JavaScript API -->
+  <script type='text/javascript'>
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    document.head.appendChild(scriptElement);
 
-  <div class='tableauPlaceholder' id='viz1733771975590' style='position: relative'><noscript><a href='#'><img alt='¿Cómo evolucionó el TOP 10? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;05&#47;05_Spotify&#47;Evolucion_TOP10&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='05_Spotify&#47;Evolucion_TOP10' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;05&#47;05_Spotify&#47;Evolucion_TOP10&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1733771975590');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-  
-  </body>
+    // Adjust Tableau viz dynamically
+    window.addEventListener("resize", () => {
+      const placeholders = document.querySelectorAll(".tableauPlaceholder");
+      placeholders.forEach(div => {
+        const viz = div.querySelector("object");
+        if (viz) {
+          // Adjust based on width and height
+          viz.style.height = window.innerHeight + "px";
+        }
+      });
+    });
+  </script>
+
+</body>
 </html>
